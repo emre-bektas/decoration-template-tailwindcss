@@ -1,0 +1,2004 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-JDG3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat_XDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-JDW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-7DW3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat9XCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat9uCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8JCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8gCm3z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAop1hTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAIpxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwA_JxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAopxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAkJxhTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAfJthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwARZthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAIpthTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAC5thTg.ttf) format('truetype');
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+@layer components {
+  .max-w-s {
+    max-width: 1224px;
+  }
+  .sd-subtitle-text {
+    @apply text-base uppercase font-medium text-default-700 text-balance;
+  }
+  .sd-title-text {
+    @apply leading-[3rem] md:leading-[3.6rem] text-4xl md:text-5xl text-primary-800 font-normal text-balance;
+  }
+}
+.btn {
+  @apply rounded-full;
+}
+header {
+  @apply fixed w-full left-1/2 px-4 -translate-x-1/2  top-6 h-12 z-50 flex-none flex items-center justify-center;
+}
+header .h-container {
+  max-width: 1224px;
+  @apply w-full h-16;
+}
+header .h-container .hc-wrapper {
+  @apply backdrop-blur bg-default-800/60 h-full w-full rounded-full pl-6 pr-2 py-3 flex items-center justify-between;
+}
+header .h-container .hc-wrapper .hc-logo span {
+  @apply text-2xl font-medium text-white tracking-tight;
+}
+header .h-container .hc-wrapper .hcw-right {
+  @apply flex items-center gap-5;
+}
+header .h-container .hc-wrapper .hcw-right .hcw-menus {
+  @apply hidden md:block;
+}
+header .h-container .hc-wrapper .hcw-right .hcw-menus li a {
+  @apply text-primary-50 font-medium text-base hover:underline;
+}
+header .h-container .hc-wrapper .hcw-right .hc-menu-btn {
+  @apply block md:hidden;
+}
+header .h-container .hc-wrapper .hcw-right .hc-btn {
+  @apply hidden md:block;
+}
+header .h-container .hc-wrapper .hcw-right .hc-btn .btn {
+  @apply rounded-full text-base px-6;
+}
+footer {
+  min-width: 18rem;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  @apply bg-white w-full;
+}
+footer .footer-line {
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  background: linear-gradient(90deg, theme("colors.primary.600"), theme("colors.secondary-400") 50%, theme("colors.primary.600"));
+}
+footer .footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  @apply w-full py-4 px-3;
+}
+footer .footer-wrapper .footer-bottom {
+  max-width: 1224px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  padding: 1rem 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @apply mx-auto;
+  /*? socials */
+}
+footer .footer-wrapper .footer-bottom > small {
+  font-size: 1rem;
+  margin: 0 0.25rem;
+}
+footer .footer-wrapper .footer-bottom .footer-headline > h2 {
+  margin: 0;
+}
+footer .footer-wrapper .footer-bottom .footer-headline > p {
+  margin: 0.75rem 0px;
+}
+footer .footer-wrapper .footer-bottom .social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+footer .footer-wrapper .footer-bottom .social-links svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+footer .footer-wrapper .footer-bottom .social-links svg:hover {
+  transform: scale(1.1);
+}
+.page-hero-image .pht-overlay,
+.page-hero-title .pht-overlay {
+  @apply absolute w-full h-full bg-gradient-to-bl to-primary/50 via-default-900/70 from-primary/50 z-10;
+}
+.page-hero-image .pht-container,
+.page-hero-title .pht-container {
+  @apply h-full relative;
+}
+.page-hero-image .pht-image,
+.page-hero-title .pht-image {
+  @apply w-full object-cover h-full;
+}
+.page-hero-image {
+  @apply h-[24rem] lg:h-[32rem];
+}
+.page-hero-title {
+  @apply w-full h-72 lg:h-96 relative;
+}
+.page-hero-title .pht-title {
+  @apply absolute bottom-20 left-1/2 max-w-s -translate-x-1/2 z-30;
+}
+.page-hero-title .pht-title h1 {
+  @apply text-4xl sm:text-5xl lg:text-8xl font-medium text-white tracking-normal drop-shadow-xl;
+}
+.home-section {
+  @apply w-full relative flex items-center justify-center px-4;
+}
+.home-section.hs-full {
+  @apply px-0;
+}
+.home-section.hs-full .hs-container {
+  @apply max-w-full py-0;
+}
+.home-section.hs-faq .hs-section-rl {
+  @apply !items-start;
+}
+.home-section.hs-contact .hs-container {
+  @apply !py-0;
+}
+.home-section .hs-container {
+  max-width: 1224px;
+  height: min-content;
+  @apply w-full py-12 md:py-24 flex flex-col gap-20;
+}
+.home-section .hs-container .hs-wrapper {
+  @apply relative md:pt-32;
+}
+.home-section .hs-container .hs-wrapper .hsc-text {
+  @apply md:absolute pb-10 md:pb-0 top-0 max-w-2xl;
+}
+.home-section .hs-container .hs-wrapper .hsc-text h3 {
+  @apply text-2xl md:leading-10 md:text-3xl text-primary-900;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random {
+  @apply flex items-center gap-2 md:gap-10;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random img {
+  min-width: 1px;
+  @apply h-20 md:h-28 lg:h-48 w-full object-cover rounded-2xl shadow-xl;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-left {
+  flex: 0 0 auto;
+  width: 25%;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right {
+  flex: 1 0 auto;
+  flex-flow: column;
+  width: 1px;
+  @apply flex flex-col gap-5 md:gap-10;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-top {
+  @apply grid-cols-3;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-top img:nth-child(2) {
+  @apply h-32 md:h-52 lg:h-72;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-top img:nth-child(3) {
+  @apply h-24 md:h-44 lg:h-64;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-bottom {
+  @apply grid-cols-2;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-bottom img:nth-child(3) {
+  @apply h-32 md:h-52 lg:h-72;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-bottom img:nth-child(1) {
+  @apply h-24 md:h-44 lg:h-64;
+}
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-top,
+.home-section .hs-container .hs-wrapper .hsc-gallery-random .hsc-gallery-right .hsc-gallery-right-bottom {
+  @apply grid items-end gap-2 md:gap-10;
+}
+.home-section .hs-container .hs-section-rl {
+  @apply flex items-center justify-between gap-4 lg:flex-row flex-col text-center lg:text-left;
+}
+.home-section .hs-container .hs-section-rl .hscrl-left {
+  @apply w-96 flex flex-col gap-1 flex-shrink-0;
+}
+.home-section .hs-container .hs-section-rl .hscrl-left span {
+  @apply sd-subtitle-text;
+}
+.home-section .hs-container .hs-section-rl .hscrl-left p {
+  @apply sd-title-text;
+}
+.home-section .hs-container .hs-section-rl .hscrl-right-faq {
+  @apply w-full flex flex-col gap-5;
+}
+.home-section .hs-container .hs-section-rl .hscrl-right {
+  @apply max-w-2xl flex flex-col gap-5;
+}
+.home-section .hs-container .hs-section-rl .hscrl-right h6 {
+  @apply text-2xl md:text-3xl font-light text-primary-900;
+}
+.home-section .hs-container .hs-section-rl .hscrl-right p {
+  @apply text-base md:text-lg text-default-500;
+}
+.home-section .hs-container .hs-section-im img {
+  @apply rounded-3xl shadow;
+}
+.home-section .hs-container .hs-section-it {
+  @apply md:h-[40rem] flex flex-col md:flex-row bg-primary-950 items-stretch relative pl-4;
+}
+.home-section .hs-container .hs-section-it .hss-it-left {
+  @apply md:pr-[42%] lg:pr-[35%] flex max-w-s w-full mx-auto flex-col justify-between gap-16 md:gap-32  py-24;
+}
+.home-section .hs-container .hs-section-it .hss-it-left .hss-it-top {
+  @apply md:max-w-sm;
+}
+.home-section .hs-container .hs-section-it .hss-it-left .hss-it-top span {
+  @apply sd-subtitle-text text-default-200;
+}
+.home-section .hs-container .hs-section-it .hss-it-left .hss-it-top p {
+  @apply sd-title-text text-white;
+}
+.home-section .hs-container .hs-section-it .hss-it-left .hss-it-bottom {
+  @apply md:max-w-xl w-full;
+}
+.home-section .hs-container .hs-section-it .hss-it-left .hss-it-bottom p {
+  @apply text-2xl text-default-200 font-light;
+}
+.home-section .hs-container .hs-section-it .hss-it-right {
+  @apply md:max-w-[40%] md:w-full md:absolute md:right-0 h-full top-0;
+}
+.home-section .hs-container .hs-section-it .hss-it-right img {
+  @apply h-full object-cover;
+}
+.home-section .hs-container .hs-section-li {
+  @apply bg-primary-950 px-12 py-20;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper {
+  @apply max-w-s w-full mx-auto items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-12;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-title {
+  @apply flex flex-col gap-1;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-title span {
+  @apply sd-subtitle-text text-default-200;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-title p {
+  @apply sd-title-text text-white;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-item {
+  @apply flex flex-col gap-10;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-item .hss-li-item-number {
+  @apply text-xl text-default-200 font-light;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-item .hss-li-item-text {
+  @apply flex flex-col gap-4;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-item .hss-li-item-text span {
+  @apply text-primary-100 text-xl font-light;
+}
+.home-section .hs-container .hs-section-li .hss-li-wrapper .hss-li-item .hss-li-item-text p {
+  @apply text-default-100 text-lg;
+}
+.home-section .hs-container .hs-section-ms {
+  @apply flex flex-col gap-20;
+}
+.home-section .hs-container .hs-section-ms .hsc-item-title {
+  @apply flex flex-col gap-1 w-64;
+}
+.home-section .hs-container .hs-section-ms .hsc-item-title span {
+  @apply sd-subtitle-text;
+}
+.home-section .hs-container .hs-section-ms .hsc-item-title p {
+  @apply sd-title-text;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item {
+  @apply flex gap-12;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item.hsc-ti-item-reverse .hsc-item-wrapper {
+  @apply flex-col md:flex-row-reverse;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-item-wrapper {
+  @apply flex md:items-end flex-col md:flex-row gap-12 flex-1;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-image {
+  @apply h-full flex-1;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-image img {
+  @apply max-w-[32rem] max-h-[40rem] w-full h-auto object-cover rounded-3xl shadow-sm;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-text {
+  @apply flex-1 flex flex-col gap-8 md:gap-16;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-text .hsc-ti-title {
+  @apply leading-[3.1rem] text-4xl font-light text-primary-800 max-w-sm text-balance;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-text .hsc-ti-lists {
+  @apply flex flex-col gap-5;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-text .hsc-ti-lists .hsc-ti-list-item h6 {
+  @apply text-2xl py-2 text-primary-800;
+}
+.home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-text .hsc-ti-lists .hsc-ti-list-item p {
+  @apply text-lg text-default-700 font-light;
+}
+.home-section .hs-header {
+  @apply flex flex-col md:flex-row md:items-end gap-5 justify-between w-full;
+}
+.home-section .hs-header .hsh-left {
+  @apply md:w-[52%] flex flex-col gap-2 md:gap-6;
+}
+.home-section .hs-header .hsh-left p {
+  @apply text-lg uppercase font-medium text-default-700 text-balance;
+}
+.home-section .hs-header .hsh-left h2 {
+  @apply md:leading-[4.5rem] text-4xl md:text-6xl text-primary-800  text-balance;
+}
+.home-section .hs-body.hs-images .hsi-items {
+  @apply grid grid-cols-1 md:grid-cols-3 items-end gap-20;
+}
+.home-section .hs-body.hs-images .hsi-items li {
+  @apply flex flex-col gap-6;
+}
+.home-section .hs-body.hs-images .hsi-items li .hsi-item-image {
+  @apply h-80 object-cover rounded-2xl shadow-sm;
+}
+.home-section .hs-body.hs-images .hsi-items li .hsi-item-info {
+  @apply text-center flex flex-col gap-2;
+}
+.home-section .hs-body.hs-images .hsi-items li .hsi-item-info h3 {
+  @apply text-primary text-2xl;
+}
+.home-section .hs-body.hs-images .hsi-items li .hsi-item-info p {
+  @apply text-default-500 font-light text-medium;
+}
+.home-section .hs-body.hs-images .hsi-items li:nth-child(2) .hsi-item-image {
+  @apply h-96;
+}
+.home-top {
+  background-image: url("/images/bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @apply w-full h-dvh relative flex items-center justify-center;
+}
+.home-top .ht-overlay {
+  @apply absolute w-full h-full bg-default-900/90 z-10;
+}
+.home-top .ht-container {
+  max-width: 1224px;
+  @apply px-6 md:pl-[170px] md:pr-[100px] z-20 relative flex h-full justify-center flex-col gap-5 md:gap-10;
+}
+.home-top .ht-container .htc-title {
+  @apply outline-none flex flex-col justify-start flex-shrink-0 break-words whitespace-pre-wrap sm:w-96 md:w-full;
+}
+.home-top .ht-container .htc-title h1 {
+  @apply leading-[3.3rem] md:leading-[5rem] lg:leading-[7rem] text-5xl md:text-7xl lg:text-8xl  bg-gradient-to-r from-white to-zinc-400 font-semibold bg-clip-text text-transparent text-balance;
+}
+.home-top .ht-container .htc-desc {
+  height: min-content;
+  @apply w-full flex flex-col md:flex-row gap-10 md:items-center justify-start flex-none flex-nowrap p-0 relative;
+}
+.home-top .ht-container .htc-desc .htc-description {
+  max-width: 474px;
+  @apply flex-1 flex justify-start;
+}
+.home-top .ht-container .htc-desc .htc-description p {
+  @apply text-default-100 font-light text-balance text-2xl md:text-3xl break-words whitespace-pre-wrap;
+}
+.home-top .ht-container .htc-desc .htc-btn {
+  @apply px-16 text-white glass rounded-full;
+}
+@layer components {
+  .faq-card {
+    @apply bg-white rounded-xl shadow-sm border border-default-200;
+  }
+  .faq-card .fc-container {
+    @apply flex flex-col;
+  }
+  .faq-card .fc-container .fcc-header {
+    @apply flex justify-between items-center cursor-pointer p-6;
+  }
+  .faq-card .fc-container .fcc-header .fcc-left {
+    @apply flex items-center;
+  }
+  .faq-card .fc-container .fcc-header .fcc-left .fcc-number {
+    @apply w-10;
+  }
+  .faq-card .fc-container .fcc-header .fcc-left .fcc-number span {
+    @apply text-xl font-light text-default-500;
+  }
+  .faq-card .fc-container .fcc-header .fcc-left .fcc-text p {
+    @apply text-xl text-primary-950;
+  }
+  .faq-card .fc-container .fcc-header .fcc-right svg {
+    @apply transition duration-150 ease-in-out;
+  }
+  .faq-card .fc-container .fcc-header.faq-active .fcc-right svg {
+    @apply rotate-180;
+  }
+  .faq-card .fc-container .fcc-body {
+    @apply pl-16 w-full pt-1 pr-6 pb-6 hidden;
+  }
+  .faq-card .fc-container .fcc-body p {
+    @apply text-lg text-default-700 font-light text-left;
+  }
+}
+@layer components {
+  .c-map {
+    @apply mt-10;
+  }
+  .contact-infos {
+    @apply flex w-full flex-col lg:flex-row lg:items-end lg:justify-end items-center relative;
+  }
+  .contact-infos .ci-form {
+    @apply lg:w-[45%] rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex flex-col gap-8 lg:absolute left-0 bottom-0 py-16 z-30 px-6;
+  }
+  .contact-infos .ci-form .ci-header {
+    @apply flex flex-col gap-3;
+  }
+  .contact-infos .ci-form .ci-header h3 {
+    @apply text-white text-3xl;
+  }
+  .contact-infos .ci-form .ci-header p {
+    @apply text-default-200 font-light text-lg;
+  }
+  .contact-infos .ci-form form .ci-form-btn {
+    @apply mt-4;
+  }
+  .contact-infos .ci-form form .form-control .label .label-text {
+    @apply text-default-100;
+  }
+  .contact-infos .ci-form form .form-control .input,
+  .contact-infos .ci-form form .form-control .textarea {
+    @apply text-white;
+  }
+  .contact-infos .ci-form form .form-control .textarea {
+    @apply resize-none;
+  }
+  .contact-infos .ci-form form .form-control .input-ghost:focus,
+  .contact-infos .ci-form form .form-control .input-ghost:focus-within,
+  .contact-infos .ci-form form .form-control .textarea-ghost:focus,
+  .contact-infos .ci-form form .form-control .textarea-ghost:focus-within {
+    --tw-bg-opacity: 0.1;
+    @apply !outline-none;
+  }
+  .contact-infos .ci-info {
+    @apply flex flex-col gap-6 w-full lg:w-auto max-w-lg py-24 text-center md:text-left;
+  }
+  .contact-infos .ci-info .cii-top {
+    @apply flex flex-col gap-3;
+  }
+  .contact-infos .ci-info .cii-top h4 {
+    @apply text-primary-950 text-2xl;
+  }
+  .contact-infos .ci-info .cii-top p {
+    @apply text-default-700 text-lg;
+  }
+  .contact-infos .ci-info .cii-bottom {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+  }
+  .contact-infos .ci-info .cii-bottom .cii-card {
+    @apply flex flex-col;
+  }
+  .contact-infos .ci-info .cii-bottom .cii-card span {
+    @apply text-xl text-primary-950;
+  }
+  .contact-infos .ci-info .cii-bottom .cii-card a,
+  .contact-infos .ci-info .cii-bottom .cii-card p {
+    @apply text-default-600 text-lg;
+  }
+}
+/*# sourceMappingURL=tw.css.map */

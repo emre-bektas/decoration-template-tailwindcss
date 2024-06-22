@@ -1,0 +1,93 @@
+@@include('../static/header.html')
+
+@@include('../components/hero-image.html', {
+"title" : "İletişim"
+})
+
+<section class="home-section hs-contact">
+    <div class="hs-container ">
+        <section class="contact-infos">
+
+            <div class="ci-form">
+                <div class="ci-header">
+                    <h3>Bize Ulaşın!</h3>
+                    <p>Hizmetlerimiz hakkında daha fazla bilgi almak, projelerinizi hayata geçirmek veya sorularınızı
+                        sormak için aşağıdaki formu doldurarak bizimle iletişime geçebilirsiniz. En kısa sürede size
+                        geri dönüş yapacağız.</p>
+                </div>
+                <form action="" method="get">
+                    <label class="form-control w-full">
+                        <div class="label">
+                            <span class="label-text">Ad Soyad</span>
+                        </div>
+                        <input type="text" placeholder="" class="input input-ghost w-full"/>
+                    </label>
+                    <label class="form-control w-full">
+                        <div class="label">
+                            <span class="label-text">E-posta Adresi</span>
+                        </div>
+                        <input type="text" placeholder="" class="input input-ghost w-full"/>
+                    </label>
+                    <label class="form-control w-full">
+                        <div class="label">
+                            <span class="label-text">Konu</span>
+                        </div>
+                        <input type="text" placeholder="" class="input input-ghost w-full"/>
+                    </label>
+                    <label class="form-control w-full">
+                        <div class="label">
+                            <span class="label-text">Mesajınız</span>
+                        </div>
+                        <textarea class="textarea textarea-ghost w-full"></textarea>
+                    </label>
+                    <div class="ci-form-btn">
+                        <button class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-forward">
+                                <polyline points="15 17 20 12 15 7"/>
+                                <path d="M4 18v-2a4 4 0 0 1 4-4h12"/>
+                            </svg>
+                            Gönder
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="ci-info">
+                <div class="cii-top">
+                    <h4>Bizimle iletişime geçin</h4>
+                    <p>Her türlü soru ve bilgi almak için bizi arayabilirsiniz. Müşteri hizmetlerimiz size yardımcı
+                        olmaktan memnuniyet duyacaktır.</p>
+                </div>
+                <div class="cii-bottom">
+                    <div class="cii-card">
+                        <span>E-mail</span>
+                        <a href="#">project@nextspace.com</a>
+                    </div>
+                    <div class="cii-card">
+                        <span>Telefon</span>
+                        <a href="#">+90 555 55 55 555</a>
+                    </div>
+                    <div class="cii-card">
+                        <span>Adress</span>
+                        <p>
+                            70 University Ave
+                            Palo Alto, CA 94301
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</section>
+
+<section class="c-map">
+    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=turkey+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    </iframe>
+</section>
+
+
+@@include('../static/footer.html')
