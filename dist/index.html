@@ -5,34 +5,41 @@
 <title>Site</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet">
+
 <link href="/css/style.css" rel="stylesheet">
+<link href="/css/aos.css" rel="stylesheet">
 
 <script src="/js/plugins/jquery-3.6.3.min.js"></script>
+<script src="/js/plugins/aos.js"></script>
 
 <script src="/js/main.js"></script>
 
 </head>
 <body>
 <header >
-    <div class="h-container">
-        <div class="hc-wrapper">
+    <div class="h-container" >
+        <div class="hc-wrapper" data-aos-duration="0" data-aos="fade-down">
             <a href="/" class="hc-logo">
                 <span>Sistem.Dekor</span>
             </a>
-
             <div class="hcw-right">
-                <ul class="hcw-menus">
-                    <li>
-                        <a href="/pages/about.html">Hakkımızda</a>
-                    </li>
-                </ul>
-                <div class="hc-btn">
-                    <a href="/pages/contact.html" class="btn btn-primary">Bize Ulaşın</a>
+                <div class="hcw-menu-items">
+                    <ul class="hcw-menus">
+                        <li>
+                            <a href="/pages/about.html">Hakkımızda</a>
+                        </li>
+                    </ul>
+                    <div class="hc-btn">
+                        <a href="/pages/contact.html" class="btn btn-primary">Bize Ulaşın</a>
+                    </div>
                 </div>
                 <div class="hc-menu-btn">
                     <button class="btn btn-outline btn-circle glass">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                        <svg class="lucide lucide-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                        <svg class="lucide lucide-x" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
                     </button>
                 </div>
             </div>
@@ -47,11 +54,11 @@
 <section class="home-top">
 
     <div class="ht-overlay"></div>
-    <div class="ht-container">
-        <div class="htc-title">
+    <div class="ht-container" >
+        <div class="htc-title" data-aos="fade-down"  data-aos-delay="100" data-aos-duration="1200">
             <h1>Renklerin Gücüyle Yenilik</h1>
         </div>
-        <div class="htc-desc">
+        <div class="htc-desc" data-aos="fade-up"  data-aos-delay="400" data-aos-duration="1500">
             <div class="htc-description">
                 <p>Detaylara verdiğimiz önem ile her projede üstün kaliteyi hedefliyoruz.</p>
             </div>
@@ -65,10 +72,10 @@
    <div class="hs-container">
        <div class="hs-header">
            <div class="hsh-left">
-               <p>Hizmetlerimiz</p>
-               <h2>Mekânlarınıza Sanat ve Estetik Katıyoruz</h2>
+               <p data-aos="fade-down"  data-aos-duration="1200">Hizmetlerimiz</p>
+               <h2  data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">Mekânlarınıza Sanat ve Estetik Katıyoruz</h2>
            </div>
-           <div class="hsh-right">
+           <div class="hsh-right" data-aos="fade-down"  data-aos-duration="1200">
                <a href="/pages/about.html" class="btn btn-lg btn-primary">
                    Hakkımızda
                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-up-right"><path d="M13 5H19V11"/><path d="M19 5L5 19"/></svg>
@@ -77,21 +84,21 @@
        </div>
        <div class="hs-body hs-images">
            <ul class="hsi-items">
-               <li>
+               <li data-aos="fade-down" data-aos-delay="200">
                    <img src="/images/service-1.jpg" class="hsi-item-image" alt="">
                    <div class="hsi-item-info">
                        <h3>İç Mekan Tasarımı</h3>
                        <p> Doğru renk seçimi ile mekanlarınızın havasını tamamen değiştirebilir, daha canlı ve davetkar bir ortam yaratabilirsiniz.</p>
                    </div>
                </li>
-               <li>
+               <li data-aos="fade-down" data-aos-delay="300">
                    <img src="/images/service-4.jpg" class="hsi-item-image" alt="">
                    <div class="hsi-item-info">
                        <h3>Duvar Dekorasyonu</h3>
                        <p> Duvar boyama, duvar kağıdı uygulaması ve sanatsal dokunuşlarla mekanlarınıza karakter katıyoruz. </p>
                    </div>
                </li>
-               <li>
+               <li data-aos="fade-down" data-aos-delay="400">
                    <img src="/images/service-3.jpg" class="hsi-item-image" alt="">
                    <div class="hsi-item-info">
                        <h3>Özel Projeler</h3>
@@ -107,11 +114,11 @@
     <div class="hs-container">
         <div class="hs-section-li">
             <div class="hss-li-wrapper">
-                <div class="hss-li-title">
+                <div class="hss-li-title" data-aos="fade-down" data-aos-delay="100">
                     <span>Servislermiz</span>
                     <p>Mekânlarınızı Yeniden Şekillendirin</p>
                 </div>
-                <div class="hss-li-item">
+                <div class="hss-li-item" data-aos="fade-down" data-aos-delay="200">
                     <span class="hss-li-item-number">01</span>
                     <div class="hss-li-item-text">
                         <span> İç Mekan Tasarımı</span>
@@ -120,28 +127,28 @@
                         </p>
                     </div>
                 </div>
-                <div class="hss-li-item">
+                <div class="hss-li-item" data-aos="fade-down" data-aos-delay="300">
                     <span class="hss-li-item-number">02</span>
                     <div class="hss-li-item-text">
                         <span>Renk Danışmanlığı</span>
                         <p>Mekanlarınıza yeni bir soluk getirmek için profesyonel renk danışmanlığı hizmetlerimizle yanınızdayız.</p>
                     </div>
                 </div>
-                <div class="hss-li-item">
+                <div class="hss-li-item" data-aos="fade-down" data-aos-delay="400">
                     <span class="hss-li-item-number">03</span>
                     <div class="hss-li-item-text">
                         <span>Mobilya ve Aksesuar Seçimi</span>
                         <p>Her detayda estetik ve işlevselliği ön planda tutarak, mekanlarınıza uygun mobilya ve aksesuarları seçmenize yardımcı oluyoruz.</p>
                     </div>
                 </div>
-                <div class="hss-li-item">
+                <div class="hss-li-item" data-aos="fade-down" data-aos-delay="500">
                     <span class="hss-li-item-number">04</span>
                     <div class="hss-li-item-text">
                         <span>Duvar Dekorasyonu</span>
                         <p> Duvar boyama, duvar kağıdı uygulaması ve sanatsal dokunuşlarla mekanlarınıza karakter kazandırıyoruz. </p>
                     </div>
                 </div>
-                <div class="hss-li-item">
+                <div class="hss-li-item" data-aos="fade-down" data-aos-delay="600">
                     <span class="hss-li-item-number">05</span>
                     <div class="hss-li-item-text">
                         <span>Özel Projeler</span>
@@ -156,16 +163,16 @@
 <section class="home-section">
     <div class="hs-container">
         <div class="hs-section-ms">
-            <div class="hsc-item-title">
+            <div class="hsc-item-title" data-aos="fade-down">
                 <span>Tasarım</span>
                 <p>Modern & Zarif</p>
             </div>
-            <div class="hsc-ti-item hsc-ti-item-reverse">
+            <div class="hsc-ti-item hsc-ti-item-reverse" >
                 <div class="hsc-item-wrapper">
-                    <div class="hsc-ti-item-image">
+                    <div class="hsc-ti-item-image" data-aos="zoom-out" data-aos-delay="200">
                         <img src="/images/bg-2.jpg" alt="">
                     </div>
-                    <div class="hsc-ti-item-text">
+                    <div class="hsc-ti-item-text" data-aos="fade-down" data-aos-delay="100">
                         <h3 class="hsc-ti-title">Fonksiyonel ve Şık Oturma Odaları</h3>
                         <div class="hsc-ti-lists">
                             <div class="hsc-ti-list-item">
@@ -186,10 +193,10 @@
             </div>
             <div class="hsc-ti-item ">
                 <div class="hsc-item-wrapper">
-                    <div class="hsc-ti-item-image">
+                    <div class="hsc-ti-item-image" data-aos="zoom-out" data-aos-delay="200">
                         <img src="/images/bg-3.jpg" alt="">
                     </div>
-                    <div class="hsc-ti-item-text">
+                    <div class="hsc-ti-item-text" data-aos="fade-down" data-aos-delay="100">
                         <h3 class="hsc-ti-title">Modern ve Fonksiyonel Mutfaklar</h3>
                         <div class="hsc-ti-lists">
                             <div class="hsc-ti-list-item">
@@ -210,10 +217,10 @@
             </div>
             <div class="hsc-ti-item hsc-ti-item-reverse">
                 <div class="hsc-item-wrapper">
-                    <div class="hsc-ti-item-image">
+                    <div class="hsc-ti-item-image" data-aos="zoom-out" data-aos-delay="200">
                         <img src="/images/bg-4.jpg" alt="">
                     </div>
-                    <div class="hsc-ti-item-text">
+                    <div class="hsc-ti-item-text" data-aos="fade-down" data-aos-delay="100">
                         <h3 class="hsc-ti-title">Konforlu ve Şık Yatak Odaları</h3>
                         <div class="hsc-ti-lists">
                             <div class="hsc-ti-list-item">
@@ -234,10 +241,10 @@
             </div>
             <div class="hsc-ti-item ">
                 <div class="hsc-item-wrapper">
-                    <div class="hsc-ti-item-image">
+                    <div class="hsc-ti-item-image" data-aos="zoom-out" data-aos-delay="200">
                         <img src="/images/bg-5.jpg" alt="">
                     </div>
-                    <div class="hsc-ti-item-text">
+                    <div class="hsc-ti-item-text" data-aos="fade-down" data-aos-delay="100">
                         <h3 class="hsc-ti-title">Verimli ve Estetik Ev Ofisleri</h3>
                         <div class="hsc-ti-lists">
                             <div class="hsc-ti-list-item">

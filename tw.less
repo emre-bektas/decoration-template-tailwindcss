@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 
 body{
   font-family: 'DM Sans', sans-serif;
@@ -27,11 +25,37 @@ body{
 }
 header{
   @apply fixed w-full left-1/2 px-4 -translate-x-1/2  top-6 h-12 z-50 flex-none flex items-center justify-center;
+  @media (max-width: 767px) {
+    &.open-mobile-menu{
+      .hc-wrapper{
+        @apply ~"!rounded-t-[32px]" !rounded-b-none ;
+        .hcw-menu-items{
+          @apply !flex;
+          .hcw-menus{
+            li{
+              a{
+                @apply py-3 px-4 text-center bg-default-900/60 w-full block rounded-full;
+              }
+            }
+          }
+        }
+        .hc-menu-btn{
+          svg.lucide-menu{
+            @apply hidden;
+          }
+          svg.lucide-x{
+            @apply !block;
+          }
+        }
+      }
+    }
+  }
+
   .h-container{
     max-width: 1224px;
-    @apply w-full h-16;
+    @apply w-full h-16 relative;
     .hc-wrapper{
-      @apply backdrop-blur bg-default-800/60 h-full w-full rounded-full pl-6 pr-2 py-3 flex items-center justify-between;
+      @apply  ~"rounded-[32px]" backdrop-blur bg-default-800/80 h-full w-full pl-6 pr-2 py-3 flex items-center justify-between;
       .hc-logo{
         span{
           @apply text-2xl font-medium text-white tracking-tight;
@@ -39,23 +63,41 @@ header{
       }
       .hcw-right{
         @apply flex items-center gap-5;
-        .hcw-menus{
-          @apply hidden md:block;
-          li{
-            a {
-              @apply text-primary-50 font-medium text-base hover:underline;
+        .hcw-menu-items{
+          @apply hidden md:flex items-center gap-4;
+          @media (max-width: 767px) {
+            @apply flex-col ~"!rounded-b-[32px]" backdrop-blur bg-default-800/80  absolute top-full left-0 max-h-96 w-full py-3 px-2;
+          }
+          .hcw-menus{
+            @apply w-full;
+            li{
+              a {
+                @apply text-primary-50 font-medium text-base hover:underline;
+              }
+            }
+          }
+          .hc-btn{
+            @apply flex-shrink-0;
+
+            @media (max-width: 767px) {
+              @apply w-full;
+            }
+            .btn{
+              @apply rounded-full text-base px-6;
+              @media (max-width: 767px) {
+                @apply w-full;
+              }
             }
           }
         }
+
         .hc-menu-btn{
-        @apply block md:hidden;
-        }
-        .hc-btn{
-          @apply hidden md:block;
-          .btn{
-          @apply rounded-full text-base px-6;
+          @apply block md:hidden;
+          svg.lucide-x{
+            @apply hidden;
           }
         }
+
       }
 
     }
@@ -142,10 +184,10 @@ footer{
   }
 }
 .page-hero-image{
-  @apply ~"h-[24rem] lg:h-[32rem]";
+  @apply ~"h-[24rem] lg:h-[28rem]";
 }
 .page-hero-title{
-  @apply w-full h-72 lg:h-96 relative;
+  @apply w-full h-64 lg:h-96 relative;
 
 
   .pht-title{
@@ -231,9 +273,9 @@ footer{
       }
     }
     .hs-section-rl{
-      @apply flex items-center justify-between gap-4 lg:flex-row flex-col text-center lg:text-left;
+      @apply flex items-center justify-between gap-4 lg:flex-row flex-col ;
       .hscrl-left{
-        @apply w-96 flex flex-col gap-1 flex-shrink-0;
+        @apply md:max-w-80 w-full flex flex-col gap-1 flex-shrink-0;
         span{
           @apply sd-subtitle-text;
         }
@@ -242,7 +284,7 @@ footer{
         }
       }
       .hscrl-right-faq{
-        @apply w-full flex flex-col gap-5;
+        @apply w-full flex flex-col gap-5 text-center lg:text-left;
       }
       .hscrl-right{
         @apply max-w-2xl flex flex-col gap-5;
@@ -262,9 +304,9 @@ footer{
       }
     }
     .hs-section-it{
-      @apply ~"md:h-[40rem]"  flex flex-col md:flex-row bg-primary-950 items-stretch relative pl-4;
+      @apply ~"md:h-[40rem]"  flex flex-col md:flex-row bg-primary-950 items-stretch relative ;
       .hss-it-left{
-        @apply ~"md:pr-[42%] lg:pr-[35%]" flex max-w-s w-full mx-auto flex-col justify-between gap-16 md:gap-32  py-24 ;
+        @apply ~"md:pr-[42%] lg:pr-[35%]" flex pl-4 max-w-s w-full mx-auto flex-col justify-between gap-16 md:gap-32  py-24 ;
         .hss-it-top{
           @apply md:max-w-sm;
           span{
@@ -282,7 +324,7 @@ footer{
         }
       }
       .hss-it-right{
-        @apply ~"md:max-w-[40%]" md:w-full md:absolute md:right-0 h-full top-0;
+        @apply ~"md:max-w-[40%]" max-h-96 md:max-h-full md:w-full md:absolute md:right-0 h-full top-0;
         img{
           @apply h-full object-cover;
         }
@@ -457,14 +499,14 @@ footer{
         .fcc-left{
           @apply flex items-center;
           .fcc-number{
-            @apply w-10;
+            @apply w-10 hidden sm:block;
             span{
               @apply text-xl font-light text-default-500;
             }
           }
           .fcc-text{
             p{
-              @apply text-xl text-primary-950;
+              @apply text-base md:text-xl text-primary-950;
             }
           }
         }
@@ -498,7 +540,7 @@ footer{
   .contact-infos{
     @apply flex w-full flex-col lg:flex-row lg:items-end lg:justify-end items-center relative;
     .ci-form{
-      @apply ~"lg:w-[45%]" rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex flex-col gap-8 lg:absolute left-0 bottom-0 py-16 z-30 px-6;
+      @apply ~"lg:w-[45%]" rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex flex-col gap-8 lg:absolute left-0 bottom-0 py-8 z-30 px-6;
       .ci-header{
         @apply flex flex-col gap-3;
         h3{

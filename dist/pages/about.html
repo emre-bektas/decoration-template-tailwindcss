@@ -5,34 +5,41 @@
 <title>Site</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet">
+
 <link href="/css/style.css" rel="stylesheet">
+<link href="/css/aos.css" rel="stylesheet">
 
 <script src="/js/plugins/jquery-3.6.3.min.js"></script>
+<script src="/js/plugins/aos.js"></script>
 
 <script src="/js/main.js"></script>
 
 </head>
 <body>
 <header >
-    <div class="h-container">
-        <div class="hc-wrapper">
+    <div class="h-container" >
+        <div class="hc-wrapper" data-aos-duration="0" data-aos="fade-down">
             <a href="/" class="hc-logo">
                 <span>Sistem.Dekor</span>
             </a>
-
             <div class="hcw-right">
-                <ul class="hcw-menus">
-                    <li>
-                        <a href="/pages/about.html">Hakkımızda</a>
-                    </li>
-                </ul>
-                <div class="hc-btn">
-                    <a href="/pages/contact.html" class="btn btn-primary">Bize Ulaşın</a>
+                <div class="hcw-menu-items">
+                    <ul class="hcw-menus">
+                        <li>
+                            <a href="/pages/about.html">Hakkımızda</a>
+                        </li>
+                    </ul>
+                    <div class="hc-btn">
+                        <a href="/pages/contact.html" class="btn btn-primary">Bize Ulaşın</a>
+                    </div>
                 </div>
                 <div class="hc-menu-btn">
                     <button class="btn btn-outline btn-circle glass">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                        <svg class="lucide lucide-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                        <svg class="lucide lucide-x" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
                     </button>
                 </div>
             </div>
@@ -48,7 +55,7 @@
         <div class="pht-overlay"></div>
         <img src="/images/service-4.jpg" class="pht-image" alt="">
         <div class="pht-title">
-            <h1>Hakkımızda</h1>
+            <h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1200">Hakkımızda</h1>
         </div>
     </div>
 
@@ -60,7 +67,7 @@
     <div class="hs-container">
         <div class="hs-wrapper">
 
-            <div class="hsc-text">
+            <div class="hsc-text" data-aos="fade-down" data-aos-delay="100">
                 <h3>
                     Kaliteye verdiğimiz önem, deneyimli ekibimiz ve sektördeki tecrübemiz ile projelerinizi güvenle bize
                     emanet edebilirsiniz.
@@ -69,17 +76,17 @@
 
             <div class="hsc-gallery-random">
                 <div class="hsc-gallery-left">
-                    <img src="/images/bg-5.jpg" alt="">
+                    <img src="/images/bg-5.jpg" data-aos="zoom-in" data-aos-delay="100" alt="">
                 </div>
                 <div class="hsc-gallery-right">
                     <div class="hsc-gallery-right-top">
-                        <img src="/images/service-4.jpg" alt="">
-                        <img src="/images/bg-4.jpg" alt="">
-                        <img src="/images/service-3.jpg" alt="">
+                        <img  data-aos="zoom-in" data-aos-delay="200" src="/images/service-4.jpg" alt="">
+                        <img data-aos="zoom-in" data-aos-delay="300" src="/images/bg-4.jpg" alt="">
+                        <img data-aos="zoom-in" data-aos-delay="400" src="/images/service-3.jpg" alt="">
                     </div>
                     <div class="hsc-gallery-right-bottom">
-                        <img src="/images/service-2.jpg" alt="">
-                        <img src="/images/bg-3.jpg" alt="">
+                        <img data-aos="zoom-in" data-aos-delay="100" src="/images/service-2.jpg" alt="">
+                        <img data-aos="zoom-in" data-aos-delay="200" src="/images/bg-3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -93,19 +100,19 @@
         <div class="hs-section-rl">
 
             <div class="hscrl-left">
-                <span>İç Mekan Tasarımı</span>
-                <p>Hayalinizdeki Mekanı Gerçeğe Dönüştürün</p>
+                <span data-aos="fade-down"  data-aos-duration="1200">İç Mekan Tasarımı</span>
+                <p data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">Hayalinizdeki Mekanı Gerçeğe Dönüştürün</p>
             </div>
-            <div class="hscrl-right">
-                <h6>Ev ve iş yerleriniz için profesyonel dekorasyon hizmetleri sunuyoruz. Hayalinizdeki mekanları
+            <div class="hscrl-right" >
+                <h6 data-aos="fade-down" data-aos-delay="300"  data-aos-duration="1200">Ev ve iş yerleriniz için profesyonel dekorasyon hizmetleri sunuyoruz. Hayalinizdeki mekanları
                     gerçeğe dönüştürmek için buradayız.</h6>
-                <p>Alanlarınızın atmosferini değiştirmek için profesyonel renk danışmanlığı hizmeti veriyoruz. Doğru
+                <p data-aos="fade-up" data-aos-delay="300"  data-aos-duration="1200">Alanlarınızın atmosferini değiştirmek için profesyonel renk danışmanlığı hizmeti veriyoruz. Doğru
                     renk seçimi ile mekanlarınızın havasını tamamen değiştirebilir, daha canlı ve davetkar bir ortam
                     yaratabilirsiniz.</p>
             </div>
 
         </div>
-        <div class="hs-section-im">
+        <div class="hs-section-im" data-aos="fade-up" data-aos-delay="300"  data-aos-duration="1200">
             <img src="/images/service-1.jpg" alt="">
         </div>
     </div>
@@ -118,10 +125,10 @@
         <div class="hs-section-it">
             <div class="hss-it-left">
                 <div class="hss-it-top">
-                    <span>Duvar Dekorasyonu</span>
-                    <p>Duvarlarınıza Sanat Katın</p>
+                    <span data-aos="zoom-in" data-aos-delay="200">Duvar Dekorasyonu</span>
+                    <p data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">Duvarlarınıza Sanat Katın</p>
                 </div>
-                <div class="hss-it-bottom">
+                <div class="hss-it-bottom" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
                     <p>
                         Duvar boyama, duvar kağıdı uygulaması ve sanatsal dokunuşlarla mekanlarınıza karakter katıyoruz.
                         Profesyonel uygulamalarımızla duvarlarınızı canlandırarak, mekanlarınıza benzersiz bir atmosfer
@@ -129,7 +136,7 @@
                     </p>
                 </div>
             </div>
-            <div class="hss-it-right">
+            <div class="hss-it-right" data-aos="zoom-in" >
                 <img src="/images/service-4.jpg" alt="">
             </div>
         </div>
@@ -144,10 +151,10 @@
         <div class="hs-section-rl">
 
             <div class="hscrl-left">
-                <span>SSS</span>
-                <p>Hâla bir sorum var?</p>
+                <span data-aos="fade-down" data-aos-duration="1200">SSS</span>
+                <p data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">Hâla bir sorum var?</p>
             </div>
-            <div class="hscrl-right-faq">
+            <div class="hscrl-right-faq" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1200">
                 <div class="faq-card">
                     <div class="fc-container">
 
