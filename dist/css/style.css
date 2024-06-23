@@ -4873,6 +4873,7 @@ details.collapse summary::-webkit-details-marker {
 
 body {
   font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .btn {
