@@ -200,7 +200,7 @@ footer{
 }
 
 .home-section{
-  @apply w-full relative flex items-center justify-center px-4;
+  @apply w-full relative flex items-center justify-center px-4 overflow-hidden;
   &.hs-full{
     @apply px-0;
     .hs-container{
@@ -410,6 +410,27 @@ footer{
           }
         }
     }
+    .hs-section-price{
+      @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-6;
+      .hss-price-card{
+        @apply flex flex-col py-12 px-6 bg-white shadow-sm border border-default-100 rounded-3xl gap-6;
+        .hss-pc-subtitle{
+          @apply sd-subtitle-text text-default-600;
+        }
+        .hss-pc-title{
+          @apply text-3xl text-primary-800;
+        }
+        .hss-pc-desc{
+          @apply text-lg text-default-500 font-light;
+        }
+        .hss-pc-cost{
+          @apply text-5xl lg:text-6xl text-primary-800 text-balance font-semibold;
+        }
+        .btn-primary{
+          @apply px-16 text-white rounded-full;
+        }
+      }
+    }
 
   }
   .hs-header{
@@ -457,7 +478,7 @@ footer{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  @apply w-full h-dvh relative flex items-center justify-center;
+  @apply w-full h-screen relative flex items-center justify-center;
   .ht-overlay{
     @apply absolute w-full h-full bg-default-900/90 z-10;
   }

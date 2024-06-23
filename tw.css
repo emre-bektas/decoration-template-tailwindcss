@@ -168,7 +168,7 @@ footer .footer-wrapper .footer-bottom .social-links svg:hover {
   @apply text-4xl sm:text-5xl lg:text-8xl font-medium text-white tracking-normal drop-shadow-xl;
 }
 .home-section {
-  @apply w-full relative flex items-center justify-center px-4;
+  @apply w-full relative flex items-center justify-center px-4 overflow-hidden;
 }
 .home-section.hs-full {
   @apply px-0;
@@ -361,6 +361,27 @@ footer .footer-wrapper .footer-bottom .social-links svg:hover {
 .home-section .hs-container .hs-section-ms .hsc-ti-item .hsc-ti-item-text .hsc-ti-lists .hsc-ti-list-item p {
   @apply text-lg text-default-700 font-light;
 }
+.home-section .hs-container .hs-section-price {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-6;
+}
+.home-section .hs-container .hs-section-price .hss-price-card {
+  @apply flex flex-col py-12 px-6 bg-white shadow-sm border border-default-100 rounded-3xl gap-6;
+}
+.home-section .hs-container .hs-section-price .hss-price-card .hss-pc-subtitle {
+  @apply sd-subtitle-text text-default-600;
+}
+.home-section .hs-container .hs-section-price .hss-price-card .hss-pc-title {
+  @apply text-3xl text-primary-800;
+}
+.home-section .hs-container .hs-section-price .hss-price-card .hss-pc-desc {
+  @apply text-lg text-default-500 font-light;
+}
+.home-section .hs-container .hs-section-price .hss-price-card .hss-pc-cost {
+  @apply text-5xl lg:text-6xl text-primary-800 text-balance font-semibold;
+}
+.home-section .hs-container .hs-section-price .hss-price-card .btn-primary {
+  @apply px-16 text-white rounded-full;
+}
 .home-section .hs-header {
   @apply flex flex-col md:flex-row md:items-end gap-5 justify-between w-full;
 }
@@ -399,7 +420,7 @@ footer .footer-wrapper .footer-bottom .social-links svg:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  @apply w-full h-dvh relative flex items-center justify-center;
+  @apply w-full h-screen relative flex items-center justify-center;
 }
 .home-top .ht-overlay {
   @apply absolute w-full h-full bg-default-900/90 z-10;
