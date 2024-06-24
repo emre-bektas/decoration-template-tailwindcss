@@ -149,23 +149,6 @@ footer{
         margin: 0.75rem 0px;
       }
 
-      /*? socials */
-
-      .social-links {
-        display: flex;
-        flex-direction: row;
-        gap: 0.75rem;
-      }
-
-      .social-links svg {
-        width: 1.5rem;
-        height: 1.5rem;
-        transition: all 0.2s ease-in-out;
-      }
-
-      .social-links svg:hover {
-        transform: scale(1.1);
-      }
     }
   }
 
@@ -560,9 +543,9 @@ footer{
     @apply mt-10;
   }
   .contact-infos{
-    @apply flex w-full flex-col lg:flex-row lg:items-end lg:justify-end items-center relative;
+    @apply flex w-full flex-col lg:flex-row lg:items-end justify-center items-center relative;
     .ci-form{
-      @apply ~"lg:w-[45%]" rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex flex-col gap-8 lg:absolute left-0 bottom-0 py-8 z-30 px-6;
+      @apply ~"lg:w-[45%]" !hidden rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex-col gap-8 lg:absolute left-0 bottom-0 py-8 z-30 px-6;
       .ci-header{
         @apply flex flex-col gap-3;
         h3{

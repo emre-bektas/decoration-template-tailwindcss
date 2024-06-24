@@ -118,7 +118,6 @@ footer .footer-wrapper .footer-bottom {
   flex-wrap: wrap;
   justify-content: space-between;
   @apply mx-auto;
-  /*? socials */
 }
 footer .footer-wrapper .footer-bottom > small {
   font-size: 1rem;
@@ -129,19 +128,6 @@ footer .footer-wrapper .footer-bottom .footer-headline > h2 {
 }
 footer .footer-wrapper .footer-bottom .footer-headline > p {
   margin: 0.75rem 0px;
-}
-footer .footer-wrapper .footer-bottom .social-links {
-  display: flex;
-  flex-direction: row;
-  gap: 0.75rem;
-}
-footer .footer-wrapper .footer-bottom .social-links svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  transition: all 0.2s ease-in-out;
-}
-footer .footer-wrapper .footer-bottom .social-links svg:hover {
-  transform: scale(1.1);
 }
 .page-hero-image .pht-overlay,
 .page-hero-title .pht-overlay {
@@ -489,10 +475,10 @@ footer .footer-wrapper .footer-bottom .social-links svg:hover {
     @apply mt-10;
   }
   .contact-infos {
-    @apply flex w-full flex-col lg:flex-row lg:items-end lg:justify-end items-center relative;
+    @apply flex w-full flex-col lg:flex-row lg:items-end justify-center items-center relative;
   }
   .contact-infos .ci-form {
-    @apply lg:w-[45%] rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex flex-col gap-8 lg:absolute left-0 bottom-0 py-8 z-30 px-6;
+    @apply lg:w-[45%] !hidden rounded-3xl -mt-64 lg:mt-0 bg-primary-950 flex-col gap-8 lg:absolute left-0 bottom-0 py-8 z-30 px-6;
   }
   .contact-infos .ci-form .ci-header {
     @apply flex flex-col gap-3;

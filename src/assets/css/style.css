@@ -3682,13 +3682,13 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 1024px) {
   .contact-infos {
     flex-direction: row;
     align-items: flex-end;
-    justify-content: flex-end;
   }
 }
 
@@ -3697,7 +3697,7 @@ details.collapse summary::-webkit-details-marker {
   bottom: 0px;
   z-index: 30;
   margin-top: -16rem;
-  display: flex;
+  display: none !important;
   flex-direction: column;
   gap: 2rem;
   border-radius: 1.5rem;
@@ -5113,7 +5113,6 @@ footer .footer-wrapper .footer-bottom {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  /*? socials */
 }
 
 footer .footer-wrapper .footer-bottom > small {
@@ -5127,22 +5126,6 @@ footer .footer-wrapper .footer-bottom .footer-headline > h2 {
 
 footer .footer-wrapper .footer-bottom .footer-headline > p {
   margin: 0.75rem 0px;
-}
-
-footer .footer-wrapper .footer-bottom .social-links {
-  display: flex;
-  flex-direction: row;
-  gap: 0.75rem;
-}
-
-footer .footer-wrapper .footer-bottom .social-links svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  transition: all 0.2s ease-in-out;
-}
-
-footer .footer-wrapper .footer-bottom .social-links svg:hover {
-  transform: scale(1.1);
 }
 
 .page-hero-image .pht-overlay,
